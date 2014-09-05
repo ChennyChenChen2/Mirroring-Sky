@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>music</key>
+	<array>
+		<string>transition1</string>
+	</array>
+	<key>regions</key>
+	<array>
+		<array>
+			<string>{38.999577, -77.521095}</string>
+			<string>{39.001019, -77.521234}</string>
+			<string>{39.001211, -77.518852}</string>
+			<string>{38.999718, -77.518681}</string>
+		</array>
+	</array>
+</dict>
+</plist>

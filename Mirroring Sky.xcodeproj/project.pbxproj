@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		872AC51819B97BE9000239A9 /* PhillyRoutes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 872AC51719B97BE9000239A9 /* PhillyRoutes.plist */; };
+		8731BF1619B7D318003A37E3 /* Rittenhouse Square.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8731BF0E19B7D318003A37E3 /* Rittenhouse Square.mp3 */; };
+		8731BF1719B7D318003A37E3 /* transition1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8731BF0F19B7D318003A37E3 /* transition1.mp3 */; };
+		8731BF1819B7D318003A37E3 /* 20th and Delancey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8731BF1019B7D318003A37E3 /* 20th and Delancey.mp3 */; };
+		8731BF1919B7D318003A37E3 /* 22nd and Pine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8731BF1119B7D318003A37E3 /* 22nd and Pine.mp3 */; };
+		8731BF1A19B7D318003A37E3 /* Fitler Square.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8731BF1219B7D318003A37E3 /* Fitler Square.mp3 */; };
+		8731BF1B19B7D318003A37E3 /* Waverly and 25th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8731BF1319B7D318003A37E3 /* Waverly and 25th.mp3 */; };
+		8731BF1C19B7D318003A37E3 /* Taney and Lombard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8731BF1419B7D318003A37E3 /* Taney and Lombard.mp3 */; };
+		8731BF1D19B7D318003A37E3 /* Schuylkill River Park.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8731BF1519B7D318003A37E3 /* Schuylkill River Park.mp3 */; };
+		87360BE3199AAD2000284826 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87360BE2199AAD2000284826 /* Images.xcassets */; };
+		8746B3FD19AD7700006916EC /* TomMcQuaidMirroringSky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8746B3FC19AD7700006916EC /* TomMcQuaidMirroringSky.jpg */; };
+		8746B3FF19AD770E006916EC /* CarolineHarrisonMirroringSky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8746B3FE19AD770E006916EC /* CarolineHarrisonMirroringSky.jpg */; };
+		8746B40219AD78D2006916EC /* DonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8746B40119AD78D2006916EC /* DonateViewController.m */; };
+		8746B40419AD8F3E006916EC /* Philly.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8746B40319AD8F3E006916EC /* Philly.plist */; };
+		875F5C48199BD929003EA6BF /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 875F5C47199BD929003EA6BF /* LaunchImage.png */; };
+		8761E99B198C4F4000B62161 /* Music-note-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8761E99A198C4F4000B62161 /* Music-note-icon.png */; };
+		8761E99D198C4F8B00B62161 /* Maps-Location-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8761E99C198C4F8B00B62161 /* Maps-Location-icon.png */; };
+		87683F05198C29E300ED848D /* AVAudMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87683F04198C29E300ED848D /* AVAudMapViewController.m */; };
+		876D38BE199D36AE003030FC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876D38BD199D36AE003030FC /* HomeViewController.m */; };
+		876D38C6199D51C2003030FC /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 876D38C5199D51C2003030FC /* AppIcon.png */; };
+		876D38CA199D54A8003030FC /* SpotlightAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 876D38C9199D54A8003030FC /* SpotlightAppIcon.png */; };
+		876D38CC199D54AE003030FC /* AppIconSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = 876D38CB199D54AE003030FC /* AppIconSettings.png */; };
+		876D38CE199D5589003030FC /* AppIconSmaller.png in Resources */ = {isa = PBXBuildFile; fileRef = 876D38CD199D5589003030FC /* AppIconSmaller.png */; };
+		876D38D0199D5603003030FC /* AppIconSettingsSmaller.png in Resources */ = {isa = PBXBuildFile; fileRef = 876D38CF199D5603003030FC /* AppIconSettingsSmaller.png */; };
+		876D38D2199D59F6003030FC /* AppIconLarger.png in Resources */ = {isa = PBXBuildFile; fileRef = 876D38D1199D59F6003030FC /* AppIconLarger.png */; };
+		876D38D5199D5FEE003030FC /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 876D38D4199D5FEE003030FC /* CustomButton.m */; };
+		876D38D8199EB964003030FC /* Region.m in Sources */ = {isa = PBXBuildFile; fileRef = 876D38D7199EB964003030FC /* Region.m */; };
+		876D38DA199EB980003030FC /* Ashburn.plist in Resources */ = {isa = PBXBuildFile; fileRef = 876D38D9199EB980003030FC /* Ashburn.plist */; };
+		876D38DC199EF1AE003030FC /* MapLocationIcon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 876D38DB199EF1AE003030FC /* MapLocationIcon.gif */; };
+		87B83B7819B22A6C00F3B5E7 /* Titles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87B83B7719B22A6C00F3B5E7 /* Titles.plist */; };
+		87BA92671995F1AB0032E895 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BA92661995F1AB0032E895 /* MapKit.framework */; };
+		87CBC2A419848679008B171D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CBC2A319848679008B171D /* Foundation.framework */; };
+		87CBC2A619848679008B171D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CBC2A519848679008B171D /* CoreGraphics.framework */; };
+		87CBC2A819848679008B171D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CBC2A719848679008B171D /* UIKit.framework */; };
+		87CBC2AE19848679008B171D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87CBC2AC19848679008B171D /* InfoPlist.strings */; };
+		87CBC2B019848679008B171D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBC2AF19848679008B171D /* main.m */; };
+		87CBC2B419848679008B171D /* AVAudAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBC2B319848679008B171D /* AVAudAppDelegate.m */; };
+		87CBC2B719848679008B171D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CBC2B519848679008B171D /* Main.storyboard */; };
+		87CBC2BA19848679008B171D /* AVAudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBC2B919848679008B171D /* AVAudViewController.m */; };
+		87CBC2C319848679008B171D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CBC2C219848679008B171D /* XCTest.framework */; };
+		87CBC2C41984867A008B171D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CBC2A319848679008B171D /* Foundation.framework */; };
+		87CBC2C51984867A008B171D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CBC2A719848679008B171D /* UIKit.framework */; };
+		87CBC2CD1984867A008B171D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87CBC2CB1984867A008B171D /* InfoPlist.strings */; };
+		87CBC2CF1984867A008B171D /* AVAudioTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBC2CE1984867A008B171D /* AVAudioTestTests.m */; };
+		87CBC2D919848729008B171D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CBC2D819848729008B171D /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87CBC2C61984867A008B171D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87CBC29819848679008B171D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87CBC29F19848679008B171D;
+			remoteInfo = AVAudioTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		872AC51719B97BE9000239A9 /* PhillyRoutes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PhillyRoutes.plist; sourceTree = "<group>"; };
+		8731BF0E19B7D318003A37E3 /* Rittenhouse Square.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rittenhouse Square.mp3"; sourceTree = "<group>"; };
+		8731BF0F19B7D318003A37E3 /* transition1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = transition1.mp3; sourceTree = "<group>"; };
+		8731BF1019B7D318003A37E3 /* 20th and Delancey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20th and Delancey.mp3"; sourceTree = "<group>"; };
+		8731BF1119B7D318003A37E3 /* 22nd and Pine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "22nd and Pine.mp3"; sourceTree = "<group>"; };
+		8731BF1219B7D318003A37E3 /* Fitler Square.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fitler Square.mp3"; sourceTree = "<group>"; };
+		8731BF1319B7D318003A37E3 /* Waverly and 25th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Waverly and 25th.mp3"; sourceTree = "<group>"; };
+		8731BF1419B7D318003A37E3 /* Taney and Lombard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Taney and Lombard.mp3"; sourceTree = "<group>"; };
+		8731BF1519B7D318003A37E3 /* Schuylkill River Park.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Schuylkill River Park.mp3"; sourceTree = "<group>"; };
+		87360BE2199AAD2000284826 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8746B3FC19AD7700006916EC /* TomMcQuaidMirroringSky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TomMcQuaidMirroringSky.jpg; sourceTree = "<group>"; };
+		8746B3FE19AD770E006916EC /* CarolineHarrisonMirroringSky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CarolineHarrisonMirroringSky.jpg; sourceTree = "<group>"; };
+		8746B40019AD78D2006916EC /* DonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateViewController.h; sourceTree = "<group>"; };
+		8746B40119AD78D2006916EC /* DonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateViewController.m; sourceTree = "<group>"; };
+		8746B40319AD8F3E006916EC /* Philly.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Philly.plist; sourceTree = "<group>"; };
+		875F5C47199BD929003EA6BF /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchImage.png; path = Images.xcassets/LaunchImage.png; sourceTree = "<group>"; };
+		8761E99A198C4F4000B62161 /* Music-note-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music-note-icon.png"; sourceTree = "<group>"; };
+		8761E99C198C4F8B00B62161 /* Maps-Location-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maps-Location-icon.png"; sourceTree = "<group>"; };
+		87683F03198C29E300ED848D /* AVAudMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudMapViewController.h; sourceTree = "<group>"; };
+		87683F04198C29E300ED848D /* AVAudMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAudMapViewController.m; sourceTree = "<group>"; };
+		876D38BC199D36AE003030FC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		876D38BD199D36AE003030FC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		876D38C5199D51C2003030FC /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		876D38C9199D54A8003030FC /* SpotlightAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpotlightAppIcon.png; sourceTree = "<group>"; };
+		876D38CB199D54AE003030FC /* AppIconSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconSettings.png; sourceTree = "<group>"; };
+		876D38CD199D5589003030FC /* AppIconSmaller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconSmaller.png; sourceTree = "<group>"; };
+		876D38CF199D5603003030FC /* AppIconSettingsSmaller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconSettingsSmaller.png; sourceTree = "<group>"; };
+		876D38D1199D59F6003030FC /* AppIconLarger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconLarger.png; sourceTree = "<group>"; };
+		876D38D3199D5FEE003030FC /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		876D38D4199D5FEE003030FC /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		876D38D6199EB964003030FC /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Region.h; sourceTree = "<group>"; };
+		876D38D7199EB964003030FC /* Region.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Region.m; sourceTree = "<group>"; };
+		876D38D9199EB980003030FC /* Ashburn.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Ashburn.plist; sourceTree = "<group>"; };
+		876D38DB199EF1AE003030FC /* MapLocationIcon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MapLocationIcon.gif; sourceTree = "<group>"; };
+		877C5C9619A1A27000F75A94 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		87B83B7719B22A6C00F3B5E7 /* Titles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Titles.plist; sourceTree = "<group>"; };
+		87BA92661995F1AB0032E895 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		87CBC2A019848679008B171D /* Mirroring Sky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mirroring Sky.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CBC2A319848679008B171D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87CBC2A519848679008B171D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87CBC2A719848679008B171D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87CBC2AB19848679008B171D /* Mirroring Sky-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mirroring Sky-Info.plist"; sourceTree = "<group>"; };
+		87CBC2AD19848679008B171D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87CBC2AF19848679008B171D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87CBC2B119848679008B171D /* Mirroring Sky-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mirroring Sky-Prefix.pch"; sourceTree = "<group>"; };
+		87CBC2B219848679008B171D /* AVAudAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudAppDelegate.h; sourceTree = "<group>"; };
+		87CBC2B319848679008B171D /* AVAudAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudAppDelegate.m; sourceTree = "<group>"; };
+		87CBC2B619848679008B171D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87CBC2B819848679008B171D /* AVAudViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudViewController.h; sourceTree = "<group>"; };
+		87CBC2B919848679008B171D /* AVAudViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudViewController.m; sourceTree = "<group>"; };
+		87CBC2C119848679008B171D /* Mirroring SkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mirroring SkyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CBC2C219848679008B171D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		87CBC2CA1984867A008B171D /* Mirroring SkyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mirroring SkyTests-Info.plist"; sourceTree = "<group>"; };
+		87CBC2CC1984867A008B171D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87CBC2CE1984867A008B171D /* AVAudioTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioTestTests.m; sourceTree = "<group>"; };
+		87CBC2D819848729008B171D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87CBC29D19848679008B171D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BA92671995F1AB0032E895 /* MapKit.framework in Frameworks */,
+				87CBC2D919848729008B171D /* AVFoundation.framework in Frameworks */,
+				87CBC2A619848679008B171D /* CoreGraphics.framework in Frameworks */,
+				87CBC2A819848679008B171D /* UIKit.framework in Frameworks */,
+				87CBC2A419848679008B171D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CBC2BE19848679008B171D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CBC2C319848679008B171D /* XCTest.framework in Frameworks */,
+				87CBC2C51984867A008B171D /* UIKit.framework in Frameworks */,
+				87CBC2C41984867A008B171D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87CBC29719848679008B171D = {
+			isa = PBXGroup;
+			children = (
+				877C5C9619A1A27000F75A94 /* MyPlayground.playground */,
+				87CBC2A919848679008B171D /* AVAudioTest */,
+				87CBC2C81984867A008B171D /* AVAudioTestTests */,
+				87CBC2A219848679008B171D /* Frameworks */,
+				87CBC2A119848679008B171D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87CBC2A119848679008B171D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87CBC2A019848679008B171D /* Mirroring Sky.app */,
+				87CBC2C119848679008B171D /* Mirroring SkyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87CBC2A219848679008B171D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87BA92661995F1AB0032E895 /* MapKit.framework */,
+				87CBC2D819848729008B171D /* AVFoundation.framework */,
+				87CBC2A319848679008B171D /* Foundation.framework */,
+				87CBC2A519848679008B171D /* CoreGraphics.framework */,
+				87CBC2A719848679008B171D /* UIKit.framework */,
+				87CBC2C219848679008B171D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87CBC2A919848679008B171D /* AVAudioTest */ = {
+			isa = PBXGroup;
+			children = (
+				87CBC2B219848679008B171D /* AVAudAppDelegate.h */,
+				87CBC2B319848679008B171D /* AVAudAppDelegate.m */,
+				87CBC2B519848679008B171D /* Main.storyboard */,
+				8746B40019AD78D2006916EC /* DonateViewController.h */,
+				8746B40119AD78D2006916EC /* DonateViewController.m */,
+				876D38D3199D5FEE003030FC /* CustomButton.h */,
+				876D38D4199D5FEE003030FC /* CustomButton.m */,
+				876D38BC199D36AE003030FC /* HomeViewController.h */,
+				876D38BD199D36AE003030FC /* HomeViewController.m */,
+				876D38D6199EB964003030FC /* Region.h */,
+				876D38D7199EB964003030FC /* Region.m */,
+				87683F03198C29E300ED848D /* AVAudMapViewController.h */,
+				87683F04198C29E300ED848D /* AVAudMapViewController.m */,
+				87CBC2B819848679008B171D /* AVAudViewController.h */,
+				87CBC2B919848679008B171D /* AVAudViewController.m */,
+				87360BE2199AAD2000284826 /* Images.xcassets */,
+				87CBC2AA19848679008B171D /* Supporting Files */,
+			);
+			path = AVAudioTest;
+			sourceTree = "<group>";
+		};
+		87CBC2AA19848679008B171D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8731BF0E19B7D318003A37E3 /* Rittenhouse Square.mp3 */,
+				8731BF0F19B7D318003A37E3 /* transition1.mp3 */,
+				8731BF1019B7D318003A37E3 /* 20th and Delancey.mp3 */,
+				8731BF1119B7D318003A37E3 /* 22nd and Pine.mp3 */,
+				8731BF1219B7D318003A37E3 /* Fitler Square.mp3 */,
+				8731BF1319B7D318003A37E3 /* Waverly and 25th.mp3 */,
+				8731BF1419B7D318003A37E3 /* Taney and Lombard.mp3 */,
+				8731BF1519B7D318003A37E3 /* Schuylkill River Park.mp3 */,
+				8746B3FE19AD770E006916EC /* CarolineHarrisonMirroringSky.jpg */,
+				8746B3FC19AD7700006916EC /* TomMcQuaidMirroringSky.jpg */,
+				876D38DB199EF1AE003030FC /* MapLocationIcon.gif */,
+				872AC51719B97BE9000239A9 /* PhillyRoutes.plist */,
+				876D38D9199EB980003030FC /* Ashburn.plist */,
+				8746B40319AD8F3E006916EC /* Philly.plist */,
+				87B83B7719B22A6C00F3B5E7 /* Titles.plist */,
+				876D38D1199D59F6003030FC /* AppIconLarger.png */,
+				876D38CF199D5603003030FC /* AppIconSettingsSmaller.png */,
+				876D38CD199D5589003030FC /* AppIconSmaller.png */,
+				876D38CB199D54AE003030FC /* AppIconSettings.png */,
+				876D38C9199D54A8003030FC /* SpotlightAppIcon.png */,
+				876D38C5199D51C2003030FC /* AppIcon.png */,
+				875F5C47199BD929003EA6BF /* LaunchImage.png */,
+				8761E99C198C4F8B00B62161 /* Maps-Location-icon.png */,
+				8761E99A198C4F4000B62161 /* Music-note-icon.png */,
+				87CBC2AB19848679008B171D /* Mirroring Sky-Info.plist */,
+				87CBC2AC19848679008B171D /* InfoPlist.strings */,
+				87CBC2AF19848679008B171D /* main.m */,
+				87CBC2B119848679008B171D /* Mirroring Sky-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87CBC2C81984867A008B171D /* AVAudioTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				87CBC2CE1984867A008B171D /* AVAudioTestTests.m */,
+				87CBC2C91984867A008B171D /* Supporting Files */,
+			);
+			path = AVAudioTestTests;
+			sourceTree = "<group>";
+		};
+		87CBC2C91984867A008B171D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87CBC2CA1984867A008B171D /* Mirroring SkyTests-Info.plist */,
+				87CBC2CB1984867A008B171D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87CBC29F19848679008B171D /* Mirroring Sky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CBC2D21984867A008B171D /* Build configuration list for PBXNativeTarget "Mirroring Sky" */;
+			buildPhases = (
+				87CBC29C19848679008B171D /* Sources */,
+				87CBC29D19848679008B171D /* Frameworks */,
+				87CBC29E19848679008B171D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mirroring Sky";
+			productName = AVAudioTest;
+			productReference = 87CBC2A019848679008B171D /* Mirroring Sky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87CBC2C019848679008B171D /* Mirroring SkyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CBC2D51984867A008B171D /* Build configuration list for PBXNativeTarget "Mirroring SkyTests" */;
+			buildPhases = (
+				87CBC2BD19848679008B171D /* Sources */,
+				87CBC2BE19848679008B171D /* Frameworks */,
+				87CBC2BF19848679008B171D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CBC2C71984867A008B171D /* PBXTargetDependency */,
+			);
+			name = "Mirroring SkyTests";
+			productName = AVAudioTestTests;
+			productReference = 87CBC2C119848679008B171D /* Mirroring SkyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87CBC29819848679008B171D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AVAud;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = n/a;
+				TargetAttributes = {
+					87CBC29F19848679008B171D = {
+						DevelopmentTeam = 64898FFM79;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					87CBC2C019848679008B171D = {
+						TestTargetID = 87CBC29F19848679008B171D;
+					};
+				};
+			};
+			buildConfigurationList = 87CBC29B19848679008B171D /* Build configuration list for PBXProject "Mirroring Sky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87CBC29719848679008B171D;
+			productRefGroup = 87CBC2A119848679008B171D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87CBC29F19848679008B171D /* Mirroring Sky */,
+				87CBC2C019848679008B171D /* Mirroring SkyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87CBC29E19848679008B171D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872AC51819B97BE9000239A9 /* PhillyRoutes.plist in Resources */,
+				875F5C48199BD929003EA6BF /* LaunchImage.png in Resources */,
+				87360BE3199AAD2000284826 /* Images.xcassets in Resources */,
+				876D38CE199D5589003030FC /* AppIconSmaller.png in Resources */,
+				8731BF1C19B7D318003A37E3 /* Taney and Lombard.mp3 in Resources */,
+				8731BF1B19B7D318003A37E3 /* Waverly and 25th.mp3 in Resources */,
+				876D38D2199D59F6003030FC /* AppIconLarger.png in Resources */,
+				876D38CC199D54AE003030FC /* AppIconSettings.png in Resources */,
+				87B83B7819B22A6C00F3B5E7 /* Titles.plist in Resources */,
+				876D38DC199EF1AE003030FC /* MapLocationIcon.gif in Resources */,
+				8761E99B198C4F4000B62161 /* Music-note-icon.png in Resources */,
+				876D38CA199D54A8003030FC /* SpotlightAppIcon.png in Resources */,
+				8746B3FF19AD770E006916EC /* CarolineHarrisonMirroringSky.jpg in Resources */,
+				8731BF1819B7D318003A37E3 /* 20th and Delancey.mp3 in Resources */,
+				876D38DA199EB980003030FC /* Ashburn.plist in Resources */,
+				87CBC2AE19848679008B171D /* InfoPlist.strings in Resources */,
+				8731BF1D19B7D318003A37E3 /* Schuylkill River Park.mp3 in Resources */,
+				8731BF1619B7D318003A37E3 /* Rittenhouse Square.mp3 in Resources */,
+				8731BF1919B7D318003A37E3 /* 22nd and Pine.mp3 in Resources */,
+				8761E99D198C4F8B00B62161 /* Maps-Location-icon.png in Resources */,
+				8746B40419AD8F3E006916EC /* Philly.plist in Resources */,
+				8731BF1A19B7D318003A37E3 /* Fitler Square.mp3 in Resources */,
+				8731BF1719B7D318003A37E3 /* transition1.mp3 in Resources */,
+				87CBC2B719848679008B171D /* Main.storyboard in Resources */,
+				876D38C6199D51C2003030FC /* AppIcon.png in Resources */,
+				876D38D0199D5603003030FC /* AppIconSettingsSmaller.png in Resources */,
+				8746B3FD19AD7700006916EC /* TomMcQuaidMirroringSky.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CBC2BF19848679008B171D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CBC2CD1984867A008B171D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87CBC29C19848679008B171D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8746B40219AD78D2006916EC /* DonateViewController.m in Sources */,
+				876D38D5199D5FEE003030FC /* CustomButton.m in Sources */,
+				876D38D8199EB964003030FC /* Region.m in Sources */,
+				87683F05198C29E300ED848D /* AVAudMapViewController.m in Sources */,
+				87CBC2B419848679008B171D /* AVAudAppDelegate.m in Sources */,
+				87CBC2B019848679008B171D /* main.m in Sources */,
+				876D38BE199D36AE003030FC /* HomeViewController.m in Sources */,
+				87CBC2BA19848679008B171D /* AVAudViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CBC2BD19848679008B171D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CBC2CF1984867A008B171D /* AVAudioTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87CBC2C71984867A008B171D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87CBC29F19848679008B171D /* Mirroring Sky */;
+			targetProxy = 87CBC2C61984867A008B171D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87CBC2AC19848679008B171D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87CBC2AD19848679008B171D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87CBC2B519848679008B171D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87CBC2B619848679008B171D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87CBC2CB1984867A008B171D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87CBC2CC1984867A008B171D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87CBC2D01984867A008B171D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87CBC2D11984867A008B171D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87CBC2D31984867A008B171D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVAudioTest/Mirroring Sky-Prefix.pch";
+				INFOPLIST_FILE = "AVAudioTest/Mirroring Sky-Info.plist";
+				PRODUCT_NAME = "Mirroring Sky";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87CBC2D41984867A008B171D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVAudioTest/Mirroring Sky-Prefix.pch";
+				INFOPLIST_FILE = "AVAudioTest/Mirroring Sky-Info.plist";
+				PRODUCT_NAME = "Mirroring Sky";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87CBC2D61984867A008B171D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AVAudioTest.app/AVAudioTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVAudioTest/AVAudioTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AVAudioTestTests/Mirroring SkyTests-Info.plist";
+				PRODUCT_NAME = "Mirroring SkyTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87CBC2D71984867A008B171D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AVAudioTest.app/AVAudioTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVAudioTest/AVAudioTest-Prefix.pch";
+				INFOPLIST_FILE = "AVAudioTestTests/Mirroring SkyTests-Info.plist";
+				PRODUCT_NAME = "Mirroring SkyTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87CBC29B19848679008B171D /* Build configuration list for PBXProject "Mirroring Sky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CBC2D01984867A008B171D /* Debug */,
+				87CBC2D11984867A008B171D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CBC2D21984867A008B171D /* Build configuration list for PBXNativeTarget "Mirroring Sky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CBC2D31984867A008B171D /* Debug */,
+				87CBC2D41984867A008B171D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CBC2D51984867A008B171D /* Build configuration list for PBXNativeTarget "Mirroring SkyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CBC2D61984867A008B171D /* Debug */,
+				87CBC2D71984867A008B171D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87CBC29819848679008B171D /* Project object */;
+}

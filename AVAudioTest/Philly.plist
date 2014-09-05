@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>music</key>
+	<array>
+		<string>Schuylkill River Park</string>
+		<string>Taney and Lombard</string>
+		<string>Waverly and 25th</string>
+		<string>Fitler Square</string>
+		<string>22nd and Pine</string>
+		<string>20th and Delancey</string>
+		<string>Rittenhouse Square</string>
+	</array>
+	<key>regions</key>
+	<array>
+		<array>
+			<string>{39.949192, -75.182645}</string>
+			<string>{39.949117, -75.181159}</string>
+			<string>{39.948315, -75.181336}</string>
+			<string>{39.948587, -75.183278}</string>
+		</array>
+		<array>
+			<string>{39.946995, -75.183703}</string>
+			<string>{39.946951, -75.183290}</string>
+			<string>{39.946837, -75.183318}</string>
+			<string>{39.946890, -75.183721}</string>
+		</array>
+		<array>
+			<string>{39.947353, -75.181810}</string>
+			<string>{39.947297, -75.181233}</string>
+			<string>{39.946975, -75.181217}</string>
+			<string>{39.947063, -75.181941}</string>
+		</array>
+		<array>
+			<string>{39.947818, -75.180240}</string>
+			<string>{39.947699, -75.179237}</string>
+			<string>{39.947333, -75.179296}</string>
+			<string>{39.947485, -75.180337}</string>
+		</array>
+		<array>
+			<string>{39.947544, -75.178470}</string>
+			<string>{39.947474, -75.177676}</string>
+			<string>{39.946960, -75.177725}</string>
+			<string>{39.947017, -75.178572}</string>
+		</array>
+		<array>
+			<string>{39.947223, -75.174844}</string>
+			<string>{39.947186, -75.174136}</string>
+			<string>{39.947721, -75.174109}</string>
+			<string>{39.947799, -75.174699}</string>
+		</array>
+		<array>
+			<string>{39.950398, -75.172768}</string>
+			<string>{39.950143, -75.170687}
+</string>
+			<string>{39.948531, -75.171019}</string>
+			<string>{39.948811, -75.173079}</string>
+		</array>
+	</array>
+</dict>
+</plist>
